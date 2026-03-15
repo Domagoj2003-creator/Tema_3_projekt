@@ -1,0 +1,19 @@
+
+\\begin{table}[h]
+\\centering
+\\caption{Detection Performance Comparison Across Model Configurations}
+\\label{tab:results}
+\\begin{tabular}{|l|c|c|c|c|c|}
+\\hline
+\\textbf{Model} & \\textbf{Precision} & \\textbf{Recall} & \\textbf{F1-Score} & \\textbf{mAP@50} & \\textbf{mAP@50-95} \\\\
+\\hline
+YOLOv8n (Weather) & 0.9805 & 0.9644 & 0.9724 & 0.9929 & 0.7519 \\\\
+\\hline
+YOLOv8n (Clean) & 0.9695 & 0.9521 & 0.9607 & 0.9908 & 0.7577 \\\\
+\\hline
+YOLOv8s (Weather) & 0.9879 & 0.9956 & 0.9917 & 0.9949 & 0.8012 \\\\
+\\hline
+YOLOv8s (Clean) & 0.9763 & 0.9621 & 0.9692 & 0.9929 & 0.7969 \\\\
+\\hline
+\\end{tabular}
+\\end{table}
